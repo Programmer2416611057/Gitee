@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
+  {% include head.html %}
+  <body>
+    <div class="ace-wrapper">
+      
+      <header id="ace-header" class="ace-container-shift ace-logo-in ace-head-boxed ace-nav-right">
+         <div class="ace-head-inner">
+         </div>
+      </header>
+
+      {% include personal.html %}
+
+      {{ content }}
+      
+      {% include footer.html %}
+    
+    </div><!-- .ace-wrapper -->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="{{ '/styles/js/vendor/jquery-1.12.4.min.js' | prepend: site.baseurl }}"></script>
+  </body>
+</html>
