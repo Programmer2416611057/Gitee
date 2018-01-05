@@ -4,8 +4,9 @@
 
 # 截图如下
 
-![https://gitee.com/xiaodan_yu/resume.io/tree/master/snapshot/01.png](https://gitee.com/xiaodan_yu/resume.io/tree/master/snapshot/01.png)
+![01.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/01.png)
 
-![https://gitee.com/xiaodan_yu/resume.io/tree/master/snapshot/02.png](https://gitee.com/xiaodan_yu/resume.io/tree/master/snapshot/02.png)
+![02.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/02.png)
 
-![https://gitee.com/xiaodan_yu/resume.io/tree/master/snapshot/03.png](https://gitee.com/xiaodan_yu/resume.io/tree/master/snapshot/03.png)
+![03.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/03.png)
+
