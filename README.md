@@ -14,17 +14,32 @@ baseurl: "/resume.io"
 ```
 2. 修改个人头像信息
 
+	修改 `_includes/personal.html` 文件中内容
+
 3. 修改基本信息
+ 
+	修改 `_includes/resumer_01-basic.html` 文件中内容
 
 4. 修改职业技能
 
+    修改 `_includes/resumer_02-profetional.html` 文件中内容
+
 5. 修改教育经历
+
+    修改 `_includes/resumer_03-education.html` 文件中内容
 
 6. 修改工作经历
 
+    修改 `_includes/resumer_04-experience.html` 文件中内容
+
 7. 修改获得证书
 
+	修改 `_includes/resumer_05-certification.html` 文件中内容
+
 8. 修改个人作品
+
+	修改 `_includes/resumer_06-personal_project.html` 文件中内容
+
  
 ## 在线预览
 
