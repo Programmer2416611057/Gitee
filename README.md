@@ -25,7 +25,7 @@ baseurl: "/resume.io"
 7. 修改获得证书
 
 8. 修改个人作品
-
+ 
 ## 在线预览
 
 [非你莫属--个人简历模板](http://xiaodan_yu.gitee.io/resume.io)
