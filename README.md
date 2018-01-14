@@ -5,16 +5,30 @@
 1. 修改`_config.yml`文件中的内容
 
 ```
-#个人名称或昵称
+# 个人名称或昵称
 name: xiaoxiao
-#个人邮箱
+# 页面个人头像信息中地址展示信息
+location: 大连
+# 页面个人头像信息中公司展示信息
+company: IBM
+# 页面个人头像信息中职位展示信息
+position: Java开发工程师
+# 页面个人头像信息中GITHUB展示信息
+github: https://github.com/XXXX
+# 页面个人头像信息中Facebook展示信息
+facebook: https://www.facebook.com/XXXX
+# 页面个人头像信息中电话展示信息
+phone: 1580424XXXX
+# 页面个人头像信息中EMAIL展示信息
 email: xxxx@xxx.com
+
 #本项目的baseurl
 baseurl: "/resume.io"
 ```
+
 2. 修改个人头像信息
 
-	修改 `_includes/personal.html` 文件中内容
+	修改 `_config.yml` 文件中内容
 
 3. 修改基本信息
  
