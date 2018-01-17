@@ -1,7 +1,7 @@
 /**
  * General Styles
  */
-html {
+ html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -307,7 +307,7 @@ big {
 /***
  * 3.0 - Elements
  */
-hr {
+ hr {
     background: transparent;
     border-width: 0 0 1px 0;
     border-style: solid;
@@ -615,11 +615,11 @@ img,
 svg,
 video {
   vertical-align: middle;
-}*/
-img,
-iframe,
-video,
-audio {
+  }*/
+  img,
+  iframe,
+  video,
+  audio {
     max-width: 100%;
 }
 
@@ -657,11 +657,11 @@ audio:not([controls]) {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button,
-input,
-optgroup,
-select,
-textarea {
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
     color: inherit;
     /* 1 */
     font: inherit;
@@ -673,7 +673,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button {
+ button {
     overflow: visible;
 }
 
@@ -683,8 +683,8 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-button,
-select {
+ button,
+ select {
     text-transform: none;
 }
 
@@ -695,10 +695,10 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+ button,
+ html input[type="button"],
+ input[type="reset"],
+ input[type="submit"] {
     -webkit-appearance: button;
     /* 2 */
     cursor: pointer;
@@ -708,16 +708,16 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
-html input[disabled] {
+ button[disabled],
+ html input[disabled] {
     cursor: default;
 }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+ button::-moz-focus-inner,
+ input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
@@ -726,7 +726,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-input {
+ input {
     line-height: normal;
 }
 
@@ -737,8 +737,8 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-input[type="checkbox"],
-input[type="radio"] {
+ input[type="checkbox"],
+ input[type="radio"] {
     box-sizing: border-box;
     /* 1 */
     padding: 0;
@@ -750,8 +750,8 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 
@@ -762,21 +762,21 @@ input[type="number"]::-webkit-outer-spin-button {
 /*input[type="search"] {
   -webkit-appearance: textfield; // 1
   box-sizing: content-box; // 2
-}*/
+  }*/
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+ input[type="search"]::-webkit-search-cancel-button,
+ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
 /**
  * Define consistent border, margin, and padding.
  */
-fieldset {
+ fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
@@ -786,7 +786,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-legend {
+ legend {
     border: 0;
     /* 1 */
     padding: 0;
@@ -797,7 +797,7 @@ legend {
  * 1. Remove default vertical scrollbar in IE 8/9/10/11.
  * 2. Only vertical resize
  */
-textarea {
+ textarea {
     overflow: auto;
     /* 1 */
     resize: vertical;
@@ -807,7 +807,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-optgroup {
+ optgroup {
     font-weight: bold;
 }
 
@@ -940,7 +940,7 @@ submit
 /**
  * 4.0 - Grid
  */
-.row {
+ .row {
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -1726,8 +1726,8 @@ submit
 .valign-inner {
   top: -50%;
   position: relative;
-}*/
-.text-center {
+  }*/
+  .text-center {
     text-align: center;
 }
 
@@ -1859,7 +1859,7 @@ submit
 /**
  * 5.1 - Alignments
  */
-.alignleft {
+ .alignleft {
     display: inline;
     float: left;
 }
@@ -1904,7 +1904,7 @@ img.aligncenter {
 /**
  * 5.2 - Caption
  */
-.wp-caption {
+ .wp-caption {
     background: transparent;
     border: none;
     color: #707070;
@@ -1939,7 +1939,7 @@ img.aligncenter {
 /**
  * 5.3 -  Galleries
  */
-.gallery {
+ .gallery {
     margin-bottom: 1.6em;
 }
 
@@ -2188,7 +2188,7 @@ img.aligncenter {
 /**
  * Tabs
  */
-.tabs {
+ .tabs {
     margin-bottom: 25px;
 }
 
@@ -2318,8 +2318,8 @@ img.aligncenter {
 /**
  * ToggleBox & Accordion
  */
-.togglebox,
-.accordion {
+ .togglebox,
+ .accordion {
     list-style: none;
     margin: 0 0 25px 0;
     padding: 0;
@@ -2361,7 +2361,7 @@ img.aligncenter {
 /**
  * Alerts
  */
-.alert {
+ .alert {
     position: relative;
     padding: 13px 30px 13px 15px;
     margin-bottom: 22px;
@@ -2442,7 +2442,7 @@ img.aligncenter {
 /**
  * Progress Bars
  */
-.progress-title {
+ .progress-title {
     font-size: 0.85em;
     line-height: 1.2em;
     display: block;
@@ -2588,7 +2588,7 @@ img.aligncenter {
 /**
  * Social Icons
  */
-.ace-social {
+ .ace-social {
     margin: 22px -15px 0;
 }
 
@@ -2618,7 +2618,7 @@ img.aligncenter {
 /**
  * Avatars
  */
-.avatar {
+ .avatar {
     border-radius: 50%;
 }
 
@@ -2810,7 +2810,7 @@ CONTENTS:
 	5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars.
 	6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
 		6.1 THEMES - Scrollbar colors, opacity, dimensions, backgrounds etc. via ready-to-use themes.
-*/
+        */
 /*
 ------------------------------------------------------------------------------------------------------------------------
 1. BASIC STYLE
@@ -4650,11 +4650,11 @@ yx-axis
 /**
  * Theme Color Scheme
  */
-/* Color Primary: $color-primary */
-.text-primary,
-.icon-list .ace-icon,
-.post-title a:hover,
-#ace-nav-wrap .ace-nav li.active a {
+ /* Color Primary: $color-primary */
+ .text-primary,
+ .icon-list .ace-icon,
+ .post-title a:hover,
+ #ace-nav-wrap .ace-nav li.active a {
     color: #c0e3e7;
 }
 
@@ -4770,7 +4770,7 @@ blockquote.quote-side:before,
 /**
  * Theme Font Families
  */
-body {
+ body {
     font-family: "Quicksand", sans-serif;
 }
 
@@ -4785,7 +4785,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Containers
  */
-.ace-wrapper {
+ .ace-wrapper {
     overflow: hidden;
     position: relative;
 }
@@ -4813,8 +4813,8 @@ h1, h2, h3, h4, h5, h6 {
     /*.ace-wrapper {
      padding-left: 20px;
      padding-right: 20px;
-   }*/
-    .ace-container-shift {
+     }*/
+     .ace-container-shift {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -4882,6 +4882,8 @@ h1, h2, h3, h4, h5, h6 {
     #ace-card {
         float: left;
         width: 288px;
+        position: fixed;
+        margin-left: 10px;
     }
 }
 
@@ -4946,7 +4948,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Header
  */
-#ace-header {
+ #ace-header {
     position: relative;
 }
 
@@ -4962,6 +4964,12 @@ h1, h2, h3, h4, h5, h6 {
         border: none;
         background: transparent;
         padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .ace-head-inner {
+        padding: 0;
     }
 }
 
@@ -5037,8 +5045,8 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Navigation's
  */
-/* Main Nav */
-#ace-main-nav {
+ /* Main Nav */
+ #ace-main-nav {
     font-size: 1em;
     line-height: 1em;
 }
@@ -5213,7 +5221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #ace-nav-wrap .ace-nav a {
     line-height: 1em;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 #ace-nav-wrap .ace-nav li a:hover {
@@ -5260,6 +5268,10 @@ h1, h2, h3, h4, h5, h6 {
     border-style: solid;
     border-color: #e1e1e1;
     padding: 5px 0;
+    margin-left: 20px;
+    padding-left: 5px;
+    position: fixed;
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
 }
 
 #ace-nav-scroll {
@@ -5444,7 +5456,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Sidebar
  */
-#ace-sidebar {
+ #ace-sidebar {
     top: 0;
     right: 0;
     width: 85%;
@@ -5548,7 +5560,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Sections
  */
-.text-box {
+ .text-box {
     line-height: 1.875em;
 }
 
@@ -5585,7 +5597,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Post
  */
-.post-media {
+ .post-media {
     position: relative;
     margin-bottom: 3.250em;
 }
@@ -6105,7 +6117,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Section: References
  */
-.ref-box {
+ .ref-box {
     position: relative;
     padding-left: 70px;
     padding-bottom: 1.875em;
@@ -6160,7 +6172,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Section: Clients
  */
-.clients {
+ .clients {
     width: 100%;
     list-style: none;
     padding: 0;
@@ -6520,7 +6532,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Footer
  */
-#ace-footer {
+ #ace-footer {
     clear: both;
     padding-top: 20px;
     padding-bottom: 20px;
