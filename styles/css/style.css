@@ -4883,7 +4883,7 @@ h1, h2, h3, h4, h5, h6 {
         float: left;
         width: 288px;
         position: fixed;
-        margin-left: 80px;
+        margin-left: 10px;
     }
 }
 
