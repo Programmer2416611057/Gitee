@@ -67,11 +67,14 @@ baseurl: "/resume.io"
 
 ## 截图预览
 
-![01.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/01.png)
+![01.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/11_01.png)
 
-![02.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/02.png)
+![02.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/11_02.png)
 
-![03.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/03.png)
+![03.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/11_03.png)
+
+![04.png](http://xiaodan_yu.gitee.io/resume.io/snapshot/11_04.png)
+
 
 ## 参考
 
