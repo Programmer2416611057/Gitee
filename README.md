@@ -64,7 +64,7 @@ baseurl: "/resume.io"
 ## 本地搭建
 
 在本地安装[Jekyll](https://jekyllrb.com/).
-然后在项目目录执行如下命令
+然后在项目目录执行`jekyll s`命令,如下
 
 ```bash
 #jekyll s
