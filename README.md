@@ -67,7 +67,7 @@ baseurl: "/resume.io"
 然后在项目目录执行`jekyll s`命令,如下
 
 ```bash
-#jekyll s
+[root@localhost ~]# jekyll s
 Configuration file: C:/..../resume.io/_config.yml
             Source: C:/..../resume.io
        Destination: C:/..../resume.io/_site
